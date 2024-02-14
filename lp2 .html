@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Learning Platform</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        /* Custom styles can be added here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to SecureLearnHub</h1>
+        <p>Your go-to platform for learning cybersecurity!</p>
+
+        <!-- Rest of your content goes here -->
+        <!-- Modify as needed -->
+    </div>
+
+    <!-- Bootstrap and other scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar for course structure -->
+            <div class="col-lg-3 col-md-4">
+                <div class="sidebar">
+                    <h2>Main Sections</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#section1">Section 1</a></li>
+                        <li class="list-group-item"><a href="#section2">Section 2</a></li>
+                        <li class="list-group-item"><a href="#section3">Section 3</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Main content area -->
+            <div class="col-lg-9 col-md-8">
+                <div class="content">
+                   <!-- Section 1 -->
+<div id="section1">
+    <h3>Section 1: Introduction</h3>
+    <p>Welcome to our course! This section provides an introduction to the course content.</p>
+    <!-- Video Player -->
+    <div id="player">
+        <video controls>
+            <source src="C:\Users\aditya singh\Downloads\What is Cyber Security_ _ Introduction to Cyber Security _ Cyber Security Training _ Edureka.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <!-- Language Selection -->
+    <div id="language-selection">
+        <label for="language">Language:</label>
+        <select id="language">
+            <option value="en">English</option>
+            <option value="es">Hindi</option>
+            <!-- Add more languages as needed -->
+        </select>
+    </div>
+    
+
+                        
+                        <!-- Progress Tracking -->
+                        <div id="progress-tracking">
+                            <h4>Progress</h4>
+                            <progress id="videoProgress" value="0" max="100"></progress>
+                        </div>
+                    
+                    
+                    <script>
+                        // JavaScript for progress tracking
+                        const video = document.getElementById('courseVideo');
+                        const progressBar = document.getElementById('videoProgress');
+                    
+                        // Update progress based on video playback
+                        video.addEventListener('timeupdate', function() {
+                            const progress = (video.currentTime / video.duration) * 100;
+                            progressBar.value = progress;
+                        });
+                    </script>
+                    </div>
+                    <div id="section2">
+                        <h3>Section 2: </h3>
+                        
+                        <!-- Video Player -->
+                        <div id="player">
+                            <video controls>
+                                <source src="C:\Users\aditya singh\Downloads\What is Cryptography_ _ Introduction to Cryptography _ Cryptography for Beginners _ Edureka.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div id="progress-tracking">
+                            <h4>Progress</h4>
+                            <progress id="videoProgress" value="0" max="100"></progress>
+                        </div>
+                    
+                    
+                    <script>
+                        // JavaScript for progress tracking
+                        const video = document.getElementById('courseVideo');
+                        const progressBar = document.getElementById('videoProgress');
+                    
+                        // Update progress based on video playback
+                        video.addEventListener('timeupdate', function() {
+                            const progress = (video.currentTime / video.duration) * 100;
+                            progressBar.value = progress;
+                        });
+                    </script>
+                    </div>
+                    <!-- Section 3 -->
+                    <div id="section3">
+                        <h3>Section 3: </h3>
+                        <!-- Video Player -->
+                        <div id="player">
+                            <video controls>
+                                <source src="C:\Users\aditya singh\Downloads\Top 10 Reasons to Learn Cybersecurity in 2024 _ Why Cybersecurity is Important _ Edureka.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div id="progress-tracking">
+                                <h4>Progress</h4>
+                                <progress id="videoProgress" value="0" max="100"></progress>
+                            </div>
+                        
+                        
+                        <script>
+                            // JavaScript for progress tracking
+                            const video = document.getElementById('courseVideo');
+                            const progressBar = document.getElementById('videoProgress');
+                        
+                            // Update progress based on video playback
+                            video.addEventListener('timeupdate', function() {
+                                const progress = (video.currentTime / video.duration) * 100;
+                                progressBar.value = progress;
+                            });
+                        </script>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // JavaScript for progress tracking
+        // You can use cookies or localStorage to track progress
+        // Update progress when user completes a section/subsection
+    </script>
+</body>
+
+</html>
